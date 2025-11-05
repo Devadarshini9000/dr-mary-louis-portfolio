@@ -1,0 +1,33 @@
+{
+  "name": "dr-mary-louis-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Dr. L. Mary Louis with Cloudinary integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "education",
+    "data-science",
+    "cloudinary"
+  ],
+  "author": "Dr. L. Mary Louis",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^7.8.7",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
